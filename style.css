@@ -1,0 +1,123 @@
+*{
+    font-family: Comic sans MS, Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    
+    margin: 0;
+    padding: 0;
+    background-color: #15142b;
+    background-image: linear-gradient(180deg, #e29f47, #2b1414);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+main, footer{
+    padding: 10px 20px;
+}
+
+header, main, section, article {
+    max-width: 700px;
+}
+
+header > h1 {
+    color: rgb(196, 196, 196);
+    text-shadow: 3px 3px 0px black;
+}
+
+.tabela, th, tr, td{
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    border-color: blue;
+    border-width: 3px;
+    border-style: solid;
+}
+
+ul{
+    background-color: linear-gradient(to top, #003366, #065cb2);
+    margin: 0;
+}
+ul a{text-decoration: none;}
+
+li{
+    display: inline-block;
+    color: rgb(196, 196, 196);
+    padding: 5px;
+    font-weight: bold;
+}
+
+li:hover{background-image: linear-gradient(to top, #7a6505, #271f09);}
+/*hover é utilizado para aplicar estilos em um link quando o mouse passa por cima dele*/
+
+.botao{
+    border: solid 1px #7a6505;
+    border-radius: 20px;
+    color: #7a6505;
+    background-color: rgb(196, 196, 196);
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+.botao:hover{
+    background-color: #7a6505;
+    color: rgb(196, 196, 196);
+    transform: scale(1.2);
+}
+
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #5c4747;
+    text-align: center;
+    display: block;
+    width: 100vw;
+    color: rgb(196, 196, 196);
+    margin-top: auto;
+    padding: 5px;
+}
+
+
+main, section, article {
+    background-color: rgb(196, 196, 196);
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.502);
+}
+
+
+p {
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+h2, h3, h4 {
+    color: #372991;
+    margin: 0 0 10px 0;
+}
+
+a {
+    color: #15142b;
+    background-color: rgba(55, 41, 145, 0.1);
+    padding: 0 3px;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: .5px dotted #372991;
+}
+
+a:hover {
+    color: #372991;
+    border-bottom: 1px solid #372991;
+}
